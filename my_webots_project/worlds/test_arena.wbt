@@ -1,0 +1,26 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Marble.proto"
+EXTERNPROTO "../protos/Carpet.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.09771321687907032 0.024943151792658567 -0.994901988351512 2.6441449632445604
+  position 5.269035470777606 2.046902902263915 0.6884127719874222
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2.5 2.5
+  floorAppearance Marble {
+  }
+}
+Carpet {
+  color 0.666667 0.666667 0
+}
